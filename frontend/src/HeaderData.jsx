@@ -12,7 +12,7 @@ export const btech = {
 export const faculty = {
   title: "Faculty Members",
   description:
-    "The Department currently has 22 faculty members whose expertise falls under five main areas: Communications and Signal Processing (CSP), VLSI and Nanoelectronic devices (VDN), Power Electronics, Power Systems and Controls (PEPS), RF and Microwave. The faculty members are actively engaged in cutting-edge research and attract funding through several sponsored projects. Through several active collaborations between the Academia and Industry, we endeavour to constantly develop solutions, technology and products that have real-life societal impact.",
+    "The Department currently has 23 faculty members whose expertise falls under five main areas: Communications and Signal Processing (CSP), VLSI and Nanoelectronic devices (VDN), Power Electronics,Electrical Machines, Power Systems and Controls (PEPS) & RF and Microwave. The faculty members are actively engaged in cutting-edge research and attract funding through several sponsored projects. Through several active collaborations between the Academia and Industry, we endeavour to constantly develop solutions, technology and products that have real-life societal impact.",
   image: "/Images/header_images/faculty.JPG",
 };
 
@@ -43,7 +43,7 @@ export const ms = {
 export const phd = {
   title: "Ph.D.",
   description:
-    "The Department has a very strong research focus and admits students for the Doctoral Program in Electrical Engineering 4 times in a year. Students are admitted under two main categories : Teaching Assistantship (TA) and Fellowship Awardees (FA). The first Ph. D. student from the Department graduated in 2014, and the Department currently has around 150 students actively engaged in research and pursuing their Doctoral Degrees.",
+    "The Department has a very strong research focus and admits students for the Doctoral Program in Electrical Engineering 4 times in a year. Students are admitted under two main categories : Teaching Assistantship (TA) and Fellowship Awardees (FA). The first Ph. D. student from the Department graduated in 2014, and the Department currently has around 120 students actively engaged in research and pursuing their Doctoral Degrees.",
 };
 
 export const gallery = {
@@ -60,7 +60,7 @@ export const projects = {
 export const eesa = {
   title: "EESA: Electrical Engineering Student's Association",
   description:
-    "The Electrical Engineering Students' Association (EESA) unites undergraduates, postgraduates, PhD candidates, and alumni from the department, promoting collaborative culture. Our mission is to facilitate student coordination, cultivate valuable connections, and enhance the academic and social experience within the department and institute. EESA fosters a vibrant community through both academic support and enjoyable informal activities, creating a lively social atmosphere for all members.EESA organizes and executes informative trips to help students better understand the fundamentals and applications of electrical engineering.EESA also serves as a vital link between students and professors, facilitating project assignments and ensuring effective communication and collaboration throughout the project's lifecycle. Apart from academics, EESA organizes enjoyable informal activities like department trips, and cultural programs to foster a lively social atmosphere and instill a sense of community and belonging in its members.",
+    "The Electrical Engineering Students' Association (EESA) unites undergraduates, postgraduates, PhD candidates, and alumni from the department, promoting collaborative culture. Our mission is to facilitate student coordination, cultivate valuable connections, and enhance the academic and social experience within the department and institute. EESA fosters a vibrant community through both academic support and enjoyable informal activities, creating a lively social atmosphere for all members. EESA organizes and executes informative trips to help students better understand the fundamentals and applications of electrical engineering. EESA also serves as a vital link between students and professors, facilitating project assignments and ensuring effective communication and collaboration throughout the project's lifecycle. Apart from academics, EESA organizes enjoyable informal activities like department trips, and cultural programs to foster a lively social atmosphere and instill a sense of community and belonging in its members.",
   image: "/Images/header_images/eesa_logo.jpeg",
 };
 
@@ -118,7 +118,7 @@ export const stats = {
 export const com = {
   title: "Department Committees",
   description:
-    "The Department has several committees to ensure smooth functioning of various activities.",
+    "The Department has several committees to ensure smooth administration and functioning of various activities.",
   // image: "/Images/header_images/committees.jpg",
 };
 export const activity = {
@@ -128,7 +128,7 @@ export const activity = {
   // image: "/Images/header_images/committees.jpg",
 };
 export const seminar = {
-  title: "Upcoming Seminars",
+  title: "Upcoming Seminars / Talks",
   //description:
   //"The Department has several committees to ensure smooth functioning of various activities.",
   // image: "/Images/header_images/committees.jpg",
@@ -136,7 +136,10 @@ export const seminar = {
 
 export const reads = {
   title: "Interesting reads",
-  //description:
-  //"The Department has several committees to ensure smooth functioning of various activities.",
+  description: "Some articles by the students....",
   // image: "/Images/header_images/committees.jpg",
+};
+
+export const fauna = {
+  title: "Glimpses of Life at IIT Indore",
 };
