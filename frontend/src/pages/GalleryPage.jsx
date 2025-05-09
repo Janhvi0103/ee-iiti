@@ -5,7 +5,6 @@ import LazyLoad from "react-lazyload"
 import { gallery } from "../HeaderData"
 import Header from "../components/Header"
 import Navbar from "../components/BodyNavbar/BodyNavbar"
-import "../components/styles/gallery.css"
 class GalleryPage extends React.Component {
   state = {
     innerWidth: window.innerWidth,
@@ -21,8 +20,8 @@ class GalleryPage extends React.Component {
   }
   getWidth(innerWidth) {
     if (innerWidth <= 700)
-      return [3, 3, 2, 2, 1, 2, 1, 1, 2, 1, 1, 2, 1, 2, 2, 2, 2, 2, 2]
-    return [3, 3, 2, 3, 2, 3]
+      return [3, 3, 2, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 3, 2, 3, 2, 3, 2,3]
+    return [3, 3, 2, 2, 3, 2, 3, 2, 3, 2, 3, 2, 3, 3, 2, 3, 2, 3, 2,3]
   }
   render() {
     const setting = {
@@ -80,6 +79,15 @@ class GalleryPage extends React.Component {
           source: "Images/gallery/btech22.jpg",
         },
         {
+          source: "Images/gallery/NCP07849.JPG",
+        },
+        {
+          source: "Images/gallery/NCP07860.JPG",
+        },
+        {
+          source: "Images/gallery/NCP07919.JPG",
+        },
+        {
           source: "Images/gallery/IMG_6925.JPG",
         },
         {
@@ -110,9 +118,6 @@ class GalleryPage extends React.Component {
           source: "Images/gallery/9K6A6843.JPG",
         },
         {
-          source: "Images/gallery/9K6A6862.JPG",
-        },
-        {
           source: "Images/gallery/9K6A6826.JPG",
         },
         {
@@ -123,6 +128,36 @@ class GalleryPage extends React.Component {
         },
         {
           source: "Images/gallery/9K6A6861.JPG",
+        },
+        {
+          source: "Images/gallery/Tesla_Coil.jpeg",
+        },
+        {
+          source: "Images/eesa/NCP08410.JPG",
+        },
+        {
+          source: "Images/eesa/NCP08454.JPG",
+        },
+        {
+          source: "Images/eesa/NCP08459.JPG",
+        },
+        {
+          source: "Images/eesa/NCP08525.JPG",
+        },
+        {
+          source: "Images/eesa/NCP08579.JPG",
+        },
+        {
+          source: "Images/gallery/TRIP1.jpg",
+        },
+        {
+          source: "Images/gallery/TRIP3.jpg",
+        },
+        {
+          source: "Images/gallery/TRIP4.jpg",
+        },
+        {
+          source: "Images/gallery/TRIP5.jpg",
         },
         {
           source: "Images/flaura_fauna/IITI_Bird_KV.JPG",
@@ -140,7 +175,7 @@ class GalleryPage extends React.Component {
           source: "Images/flaura_fauna/IITI_Owl_Guest_House.JPG",
         },
         {
-          source: "Images/flaura_fauna/IITI_Peacock.JPG",
+          source: "Images/flaura_fauna/IITI_peacock.JPG",
         },
         {
           source: "Images/flaura_fauna/IITI_Plum_Headed.JPG",

@@ -116,7 +116,29 @@ const Staff_Card = (props) => {
                     />
                     Phone: {item.phone ? item.phone : 1234567890}
                   </Typography>
-                  <Typography fontSize="0.8rem">
+                 
+                  {item.title === "Junior Assistant, HoD Office" ? (
+                    <>
+                      <Typography fontSize="0.8rem">
+                        <Email
+                          sx={{
+                            verticalAlign: "bottom",
+                            paddingRight: "3px",
+                            fontSize: "1.5rem",
+                          }}
+                        />
+                        Email:&nbsp;
+                        <a href="mailto:eeoffice@iiti.ac.in">
+                          <Typography
+                            variant="body"
+                            fontSize={"0.8rem"}
+                            color="secondary.main"
+                          >
+                            eeoffice@iiti.ac.in
+                          </Typography>
+                        </a>
+                      </Typography>
+                       <Typography fontSize="0.8rem">
                     <Email
                       sx={{
                         verticalAlign: "bottom",
@@ -135,6 +157,11 @@ const Staff_Card = (props) => {
                       </Typography>
                     </a>
                   </Typography>
+                    </>
+                  ) : (
+                    <></>
+                  )}
+
                   {props.name === "Staff" ? (
                     <></>
                   ) : (

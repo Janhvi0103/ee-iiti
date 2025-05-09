@@ -1,6 +1,8 @@
 const navs = {
   About: {
-    Department: "/about",
+
+    "The Department": "/about",
+
     Gallery: "/gallery",
   },
   People: {
@@ -8,13 +10,14 @@ const navs = {
     Staff: "/people/Staff",
     "Department Commitees": "/people/Committees",
 
-    "Ph.D. students": {
+    "Ph. D. students": {
       2018: "/people/PhD/2018",
       2019: "/people/PhD/2019",
       2020: "/people/PhD/2020",
       2021: "/people/PhD/2021",
       2022: "/people/PhD/2022",
       2023: "/people/PhD/2023",
+      2024: "/people/PhD/2024",
     },
     "M. S. Research": {
       // 2019: "/people/MS/2019",
@@ -22,19 +25,20 @@ const navs = {
       // 2021: "/people/MS/2021",
       2022: "/people/MS/2022",
       2023: "/people/MS/2023",
+      2024: "/people/MS/2024",
     },
     "M. Tech. students": {
       // 2020: "/people/MTech/2020",
       // 2021: "/people/MTech/2021",
-      2022: "/people/MTech/2022",
       2023: "/people/MTech/2023",
+      2024: "/people/MTech/2024",
     },
 
     "B. Tech. students": {
-      2020: "/people/BTech/2020",
       2021: "/people/BTech/2021",
       2022: "/people/BTech/2022",
       2023: "/people/BTech/2023",
+      2024: "/people/BTech/2024",
     },
     Alumni: {
       2014: "/people/Alumni/2014",
@@ -42,7 +46,8 @@ const navs = {
       2016: "/people/Alumni/2016",
       2017: "/people/Alumni/2017",
       2018: "/people/Alumni/2018",
-      // 2019: "/people/BTech/2019",
+      2019: "/people/Alumni/2019",
+      2020: "/people/Alumni/2020",
     },
   },
   Research: {
@@ -59,7 +64,7 @@ const navs = {
       2021: "https://drive.google.com/file/d/1P0OZHrPs0-XzbO8rDsOWS0Nf-iO6UPpd/view?usp=drive_link",
       2022: "https://drive.google.com/file/d/1aTR3rYd3fIdJvB7UR0oG7uuiQ_Z9Ih59/view?usp=drive_link",
       2023: "https://drive.google.com/file/d/1A6hnS8lyZG3yE_M9uNd6CsRTGYljM3_a/view?usp=drivesdk",
-      2024: "https://drive.google.com/file/d/1A69R_pPSK4CsZG5jy3TOd36eJe8JXBHp/view?usp=drivesdk",
+      2024: "https://drive.google.com/file/d/1zRiBxQpUkRS0zG37ev_LVGd2oC0k8YDs/view?usp=drivesdk",
     },
     Stats: {
       Degrees: "/research/stats/Students",
@@ -70,6 +75,7 @@ const navs = {
       Placements: "/research/stats/Placements",
       Grants: "/research/stats/Grants",
       Citations: "/research/stats/citations",
+      "Funding Agencies and Collaborators": "/research/stats/Funding",      
     },
   },
 
@@ -77,14 +83,22 @@ const navs = {
     Courses: {
       "B. Tech. (before 2023)": "/courses/BTech",
       "B. Tech. (after 2023)": "/courses/BTech/new",
-      "M.Tech.(CSP)": "/courses/MTechCSP",
-      "M.Tech.(VDN)": "/courses/MTechVDN",
+      "M. Tech. (CSP)": "/courses/MTechCSP",
+      "M. Tech. (VDN)": "/courses/MTechVDN",
     },
 
     Laboratories: {
       Research: "/labs/pg",
       PG: "/labs/postgraduate", /////// temoporary  ,
       UG: "/labs/ug",
+    },
+    Timetable: {
+      "B. Tech. (4th yr) & PG-Ph. D.":
+        "https://drive.google.com/file/d/1hdJBYR3bS31bJzRlZ9dNlcuKXnuzAXif/view?usp=drivesdk",
+      "B. Tech. (2nd & 3rd yr)":
+        "https://drive.google.com/file/d/1hbacL_gul_YK2FSiU1ecnPDATSaTUJqX/view?usp=drivesdk",
+      "Course slots":
+        "https://drive.google.com/file/d/1hiyQKYPU5iQFeiYhX5P1S__JQomjB9aU/view?usp=drivesdk",
     },
   },
   Achievements: {
@@ -97,6 +111,7 @@ const navs = {
     "Interesting reads": "/activities/reads",
     "Upcoming Seminars": "/activities/seminars",
     "Upcoming Activities": "/activities/upcoming",
+    "Flora & Fauna": "/activities/flaura",
   },
 }
 

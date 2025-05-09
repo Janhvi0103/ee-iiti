@@ -11,6 +11,7 @@ import {
   TableRow,
   TableCell,
 } from "@mui/material"
+import { CircularProgress } from "@mui/material"
 import { TableContainer } from "@mui/material"
 import { useParams } from "react-router-dom"
 import { api } from "../Api"
@@ -25,15 +26,15 @@ export default function CoursePage() {
 
   const [elective, setElective] = useState()
   useEffect(() => {
-    setTimeout(() => {
-      axios
-        .get(`${api}/course/read/${param.program}`, { timeout: 50000 })
-        .then((response) => setData(response.data))
-        .catch((error) => setIsError(error.message))
-      if (!isError) {
-        setIsError("Not Available")
-      }
-    })
+    // setTimeout(() => {
+    axios
+      .get(`${api}/course/read/${param.program}`, { timeout: 50000 })
+      .then((response) => setData(response.data))
+      .catch((error) => setIsError(error.message))
+    if (!isError) {
+      setIsError("Not Available")
+    }
+    // })
   }, [param.program, isError])
   useEffect(() => {
     setTimeout(() => {
@@ -83,8 +84,8 @@ export default function CoursePage() {
           >
             <Typography variant="h1" color="primary.main" textAlign="center">
               {param.program === "BTech" ? "B. Tech." : ""}
-              {param.program === "MTechCSP" ? "M. Tech.(CSP)" : ""}
-              {param.program === "MTechVDN" ? "M. Tech.(VDN)" : ""}
+              {param.program === "MTechCSP" ? "M. Tech. (CSP)" : ""}
+              {param.program === "MTechVDN" ? "M. Tech. (VDN)" : ""}
             </Typography>
           </a>
           <Box sx={{ py: 4 }}>
@@ -354,7 +355,13 @@ export default function CoursePage() {
               </>
             ) : (
               // <LoadingPage />
-              <></>
+              <>
+                <Box sx={{ display: "flex", height: "40vh" }}>
+                  <Box sx={{ margin: 'auto' }}>
+                    <CircularProgress />
+                  </Box>
+                </Box>
+              </>
             )}
           </Box>
         </Container>
